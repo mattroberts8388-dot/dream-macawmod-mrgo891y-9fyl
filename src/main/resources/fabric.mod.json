@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "macawmod",
+  "version": "${version}",
+  "name": "Macaw Mod",
+  "description": "Adds a passive Macaw bird that spawns in jungles, perches on your shoulder when tamed with seeds, and grants night vision.",
+  "authors": ["MacawMod"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.macawmod.MacawModMod"],
+    "client": ["com.macawmod.MacawModModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
